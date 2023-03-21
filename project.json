@@ -1,5 +1,5 @@
 {
-  "name": "Descargar y mandar facturas",
+  "name": "Descargar y mandar facturas_Windows",
   "description": "Descarga de facturas de Comprobantes en Linea según tabla de Mis Comprobantes y encío de las mismas",
   "main": "Descargar facturas.xaml",
   "dependencies": {
@@ -20,6 +20,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -27,7 +28,8 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -54,5 +56,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows"
 }
