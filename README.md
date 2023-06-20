@@ -48,9 +48,9 @@ Los pasos para ejecutar el bot son los siguientes:
 
 - En caso que no se guarden los Archivos con el nombre definido en el Excel se debe ejecutar el bot que contiene en su nombre "sin ST" (sin no existe se subirá proximamente)
 
-- Las ubicaciones del Excel deben ir desde el Disco hasta la Ubicación completa con un backslash final (ejemplo: "C:\Users\Agustin Bustos\Desktop\TEST\")
+- Las ubicaciones del Excel deben ir desde el Disco hasta la Ubicación completa con un backslash final (ejemplo: 'C:\Users\Agustin Bustos\Desktop\TEST\')
   
-  - Los de la ventana emergente inicial van sin el último backslash (ejemplo: "C:\Users\Agustin Bustos\Desktop\Test") y es importante que esa ubicación exista. Esta ubicación se utiliza solamente cuando la direccion de descarga del Excel esta vacío
+  - Los de la ventana emergente inicial van sin el último backslash (ejemplo: 'C:\Users\Agustin Bustos\Desktop\Test') y es importante que esa ubicación exista. Esta ubicación se utiliza solamente cuando la direccion de descarga del Excel esta vacío
 
 ---
 
@@ -90,7 +90,10 @@ Cualquier cosa pueden contactarme en:
 
 <!-- [![Cafecito](https://img.shields.io/badge/-Cafecito-9cf?style=for-the-badge)](https://cafecito.app/abustos) -->
 
-[<img src="https://santanderpost.com.ar/wp-content/uploads/2022/02/Cafecito-.jpg" title="Cafecito" height="30" width="65\">](https://cafecito.app/abustos)
+<!-- [<img src="https://santanderpost.com.ar/wp-content/uploads/2022/02/Cafecito-.jpg" title="Cafecito" height="30" width="65\">](https://cafecito.app/abustos) -->
+
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_5.svg)](https://cafecito.app/abustos)
+
 
 <br/>
 
