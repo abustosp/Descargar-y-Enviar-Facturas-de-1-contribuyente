@@ -18,6 +18,16 @@ Los pasos para ejecutar el bot son los siguientes:
 
 3. Instalar la version el Studio (no la Studio X).
 
+   ![Configuración de versión](https://github.com/abustosp/Configuraciones/blob/master/Uipath/Cambiar-a-Studio.png "Configuración de versión")
+
+   - Si no permite hacer este cambio se debe:
+
+      1. Iniciar sesión en Uipath cloud.
+
+      2. Eliminar la organización.
+
+      3. Crear una nueva organización.
+
 4. Descargar el BOT. Acá hay 3 opciones:
    
    1. Descargar el ZIP.
@@ -40,7 +50,22 @@ Los pasos para ejecutar el bot son los siguientes:
 
 ## Particularidades del BOT:
 
-- El Bot corre en Firefox (se puede configurar para Chrome pero se recomienda el primero por temas de rendimiento) y en Windows 10 cómo mínimo
+- El Bot corre en Firefox (se puede configurar para Chrome pero se recomienda el primero por temas de rendimiento) y en Windows 10 cómo mínimo.
+
+  - Firefox se debe configurar de la siguiente manera:
+
+    1. El idioma tiene que estar en Español de Argentina
+
+    ![Configuración de idioma](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Idioma-Espa%C3%B1ol-ARG.png "Configuración de idioma")
+
+    2. La descarga de archivos debe estar configurada para que se pregunte donde guardarlos
+
+    ![Configuración de descarga](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Ubicacion-de-descargas.png "Configuración de descarga")
+
+    3. La descarga de archivos debe estar configurada para que no se pregunte si se quiere guardar el archivo (si el archivo aparece en la lista tiene que estar configurado con la opción de "Guardar Archivo" por ejemplo en el caso de los PDF y XLSX o planillas de cálculo)
+
+    ![Configuración de descarga](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Descarga-de-Archivos.png "Configuración de descarga")
+
 
 - Los datos de la facturas son los provenientes al archivi de Mis Comprobantes Emitidos
 
