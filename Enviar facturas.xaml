@@ -108,7 +108,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Enviar facturas" sap:VirtualizedContainerService.HintSize="656,475" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Enviar facturas" sap:VirtualizedContainerService.HintSize="726,474" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Name="Ubicacion" />
       <Variable x:TypeArguments="sd:DataTable" Name="Facturas" />
@@ -162,13 +162,13 @@
               <av:PointCollection x:Key="ConnectorLocation">255,399.5 255,430.5</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Facturas]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="530,561" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Facturas]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="530,564" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
             <ui:ForEachRow.Body>
               <ActivityAction x:TypeArguments="sd:DataRow">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Row" />
                 </ActivityAction.Argument>
-                <Sequence sap:VirtualizedContainerService.HintSize="496,444" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                <Sequence sap:VirtualizedContainerService.HintSize="496,447" sap2010:WorkflowViewState.IdRef="Sequence_1">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="body" />
                   </Sequence.Variables>
@@ -186,7 +186,7 @@
                         <umabh:HtmlContentArgument.ValueMappings>
                           <scg:List x:TypeArguments="umabh:HtmlValueMappingBase" Capacity="4">
                             <umabh:HtmlTextValueMapping Name="Comprobante" Value="[row(&quot;Comprobante&quot;).ToString]" />
-                            <umabh:HtmlTextValueMapping Name="Concepto" Value="[row(&quot;Concep&quot;).ToString]" />
+                            <umabh:HtmlTextValueMapping Name="Concepto" Value="[row(&quot;Concepto&quot;).ToString]" />
                           </scg:List>
                         </umabh:HtmlContentArgument.ValueMappings>
                       </umabh:HtmlContentArgument>
